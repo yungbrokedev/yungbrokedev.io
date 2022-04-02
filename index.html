@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Live HTML</title>
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+        <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+        <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+        <link rel="stylesheet" href="styles/main.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+    <body>
+        <header id="header">
+    <div class="container">
+        <div class="header">
+            <div class="header__col header__col--logo">
+                <a class="logo" href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header__col">
+                <div class="header__row">
+                    <nav class="top-nav">
+                        <ul>
+                            <li><a href="">Каталог инструментов</a></li>
+                            <li><a href="">Все для сада</a></li>
+                            <li><a href="">Ручной инструмент</a></li>
+                            <li><a href="">Электрика</a></li>
+                            <li><a href="">Доставка</a></li>
+                            <li><a href="">Оплата</a></li>
+                            <li><a href="">О нас</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="auth-nav">
+                        <ul>
+                            <li><a href="">Вход</a></li>
+                            <li><a href="">Регистрация</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__row">
+                    <div class="banner">
+                        <picture>
+                            <img src="img/banner.png" alt="">
+                        </picture>
+                    </div>
+
+                    <div class="cart">
+                        <ul class="cart__links">
+                            <li class="li-cart">
+                                <a href="" class="js-cart underline">
+                                    <i class="icon icon--cart"></i>
+                                    <span>
+                                        <span class="counter">3</span> шт.
+                                        /
+                                        <span class="sum">17 250</span> р.
+                                    </span>
+                                </a>
+                            </li>
+                            <li><a class="underline" href=""><i class="icon icon--fav"></i>Избранное (<span class="counter">7</span>)</a></li>
+                            <li><a class="underline" href=""><i class="icon icon--compare"></i>К сравнению (<span class="counter">5</span>)</a></li>
+                        </ul>
+                        <div class="cart__list js-cart-list">
+                            <ul>
+                            <li><a href=""><img src="img/cart_1.png" alt=""></a></li>
+                            <li><a href=""><img src="img/cart_2.png" alt=""></a></li>
+                            <li><a href=""><img src="img/cart_3.png" alt=""></a></li>
+                            <li><a href=""><img src="img/cart_1.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="contacts">
+                        <div class="contacts__time">
+                            <span><b>Время работы:</b></span>
+                            <span>10:00 — 19:00</span>
+                        </div>
+                        <div class="contacts__phone">
+                            8 495 721-25-25
+                        </div>
+                        <div class="contacts__location">
+                            <span>Москва</span>
+                            <span><a href="" class="dashed">сменить</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <input type="text" class="search">
+            <input class="menu-checkbox" id="menu" type="checkbox">
+            <label class="menu-label" for="menu">
+                <span><i></i><i></i><i></i></span>
+                Категории
+            </label>
+            <ul class="nav__main">
+                <li><a class="active" href="">Перфораторы</a></li>
+                <li><a href="">Дрели</a></li>
+                <li><a href="">Шлифмашины</a></li>
+                <li><a href="">Пистолеты</a></li>
+                <li><a href="">Электропилы</a></li>
+                <li><a href="">Наборы инструментов</a></li>
+                <li><a href="">Акксесуары</a></li>
+            </ul>
+            <ul class="nav__right">
+                <li><a href="">Распродажа</a></li>
+            </ul>
+
+        </nav>
+    </div>
+</header>
+        <script src="js/main.min.js"></script>
+        <script src="js/vendor.min.js"></script>
+    </body>
+</html>
